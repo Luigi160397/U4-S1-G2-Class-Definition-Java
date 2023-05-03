@@ -10,4 +10,8 @@ public class Carrello {
 		this.totCarrello = totCarrello;
 		
 	}
+	
+	public void totaleChar() {
+		System.out.println(this.totCarrello);
+	}
 }
