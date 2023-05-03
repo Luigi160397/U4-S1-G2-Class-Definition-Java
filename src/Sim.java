@@ -1,22 +1,22 @@
 import java.util.Arrays;
 
 public class Sim {
-	int numero;
+	long numero;
 	double credito = 0.00;
 	Chiamata[] listaChiamate = null;
 	
-	public Sim (int num, double cred, Chiamata[] lista) {
+	public Sim (long num, double cred, Chiamata[] lista) {
 		this.numero = num;
 		this.credito = cred;
 		this.listaChiamate = lista;
 	}
-	public Sim(int num) {
+	public Sim(long num) {
         this.numero = num;
         this.credito = 0;
         this.listaChiamate = null;
     }
 
-    public Sim(int num, double credito) {
+    public Sim(long num, double credito) {
         this.numero = num;
         this.credito = credito;
         this.listaChiamate = null;
